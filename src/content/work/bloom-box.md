@@ -1,23 +1,53 @@
 ---
-title: Bloom Box
+title: Site Web du blog
 publishDate: 2019-12-01 00:00:00
-img: /assets/stock-2.jpg
+img: /assets/stock-2.png
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
-  We paired with a cutting-edge music API and a team of horticulturalists
-  to build AI-generated playlists that maximize houseplant health.
+  Le Site Web du Blog Laravel est une plateforme de gestion de contenu (blog) simple et efficace, développée avec PHP, Laravel et MySQL. Il permet aux utilisateurs de parcourir des articles, d'ajouter des commentaires et, en tant qu'administrateur, de gérer les articles, les utilisateurs et les rôles.
 tags:
-  - Dev
-  - Branding
-  - Backend
+  - Blog
+  - Laravel 9
+  - MySQL
 ---
+## Blog Website
+Dans cet article, nous allons explorer le développement d'une application de blog simple mais puissante à l'aide de Laravel, un des frameworks PHP les plus populaires. Le projet que nous allons examiner, Laravel Blog Website, offre une gestion complète des articles, des utilisateurs et des rôles. Grâce à sa structure robuste et à ses fonctionnalités riches, cette application est idéale pour ceux qui souhaitent construire un blog moderne avec un contrôle total sur le contenu et les permissions des utilisateurs.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+### Vue d'ensemble du projet
+Le Laravel Blog Website permet aux utilisateurs de naviguer sur des articles, de commenter, et pour les administrateurs, de gérer les utilisateurs, les articles, et même les rôles. Ce projet offre un ensemble de fonctionnalités puissantes et une interface utilisateur réactive, permettant une expérience fluide sur tous les appareils. En tant qu'administrateur, vous avez la possibilité de créer, modifier ou supprimer des articles, tout en gérant les rôles des utilisateurs pour assurer un contrôle total du contenu du site.
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+### Fonctionnalités clés
+1. Système de gestion des rôles
+L'application permet d'avoir plusieurs rôles d'utilisateur.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+Les rôles par défaut sont :
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+--Administrateur : a un contrôle total sur le site.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+--Rédacteur : peut ajouter et modifier des articles, mais uniquement ceux qu'il a créés, et gérer les commentaires sur ses propres articles.
+Les administrateurs peuvent gérer les rôles, permettant une flexibilité totale dans la gestion des permissions.
+
+2. Création, édition et suppression d'articles
+Les rédacteurs peuvent facilement ajouter de nouveaux articles, les modifier ou les supprimer. Les articles peuvent être sauvegardés pour une édition ultérieure et publiés une fois finalisés.
+
+3. Commentaire sur les articles
+Les utilisateurs peuvent commenter les articles. Ces commentaires sont modérés par les administrateurs et les rédacteurs.
+
+4. Protection avancée
+Le système assure la sécurité du site avec des restrictions claires, empêchant les utilisateurs non autorisés de supprimer des articles qui ne leur appartiennent pas ou de modifier les comptes d'autres utilisateurs.
+
+5. Fonctionnalité de sauvegarde automatique
+Une fonctionnalité pratique de sauvegarde automatique permet aux rédacteurs de sauvegarder leur travail en cours et de reprendre la rédaction plus tard sans perdre leur contenu.
+
+6. Notifications par e-mail
+L'application permet d'envoyer des e-mails aux utilisateurs après avoir mis à jour leurs informations de compte, renforçant l'interactivité et l'engagement des utilisateurs.
+
+### Technologies utilisées
+Le Laravel Blog Website est construit avec les technologies suivantes :
+
+Laravel 9 : le framework PHP moderne et flexible.
+PHP 8.1 : la version la plus récente de PHP, garantissant des performances optimisées.
+MySQL : la base de données relationnelle utilisée pour stocker les articles, les commentaires et les utilisateurs.
+Frontend (HTML5, CSS3, JavaScript) : pour une interface utilisateur dynamique et réactive.
+AlertifyJS : pour afficher des notifications douces et interactives à l'utilisateur.
+FontAwesome : pour une meilleure gestion des icônes.
