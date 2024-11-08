@@ -2,6 +2,7 @@
 title: Site Web du blog
 publishDate: 2019-12-01 00:00:00
 img: /assets/stock-2.png
+githubUrl: "https://github.com/mbarekbik/application-pour-lister-les-concerts-emplois"
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
   Le Site Web du Blog Laravel est une plateforme de gestion de contenu (blog) simple et efficace, développée avec PHP, Laravel et MySQL. Il permet aux utilisateurs de parcourir des articles, d'ajouter des commentaires et, en tant qu'administrateur, de gérer les articles, les utilisateurs et les rôles.

@@ -2,9 +2,11 @@
 title: Système de gestion de bibliothèque 
 publishDate: 2024-04-04 00:00:00
 img: /assets/stock-3.png
+githubUrl: "https://github.com/mbarekbik/Syst-me-de-gestion-de-biblioth-que"
+
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
-  We developed a virtual showcase for the softest bedding imaginable.
+  Ce système permet de gérer les livres, les utilisateurs, les emprunts et autres fonctionnalités typiques d'une bibliothèque. En suivant ces instructions, vous configurerez l'application localement, installerez les dépendances requises, effectuerez la migration de la base de données, et lancerez le serveur de développement pour tester l'application.
 tags:
   - Laravel
   - lms

@@ -2,6 +2,7 @@
 title: Plateforme E-commerce
 publishDate: 2024-03-02 00:00:00
 img: /assets/stock-1.png
+githubUrl: "https://github.com/mbarekbik/Plateforme-de-commerce-lectronique"
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
  Une application de commerce électronique moderne construite avec Laravel et Vue.js, offrant une expérience SPA (Single Page Application). Ce projet inclut une API REST, un système d'authentification multi-niveau, un tableau de bord d'administration, et des fonctionnalités avancées telles que la gestion des commandes, les rapports graphiques, les coupons de réduction, et l'intégration d'une passerelle de paiement.
